@@ -1,0 +1,122 @@
+<resources>
+    <string name="app_name">My Application</string>
+    <string name="demo_name_main">百度地图示例中心</string>
+
+    <string name="normal_map">普通地图</string>
+    <string name="satellite_map">卫星图</string>
+
+    <!-- 字体 -->
+    <string name="PingFang_SC_Medium">PingFang-SC-Medium</string>
+    <string name="PingFangSC_Regular">PingFangSC-Regular</string>
+    <string name="PingFangSC_Semibold">PingFangSC-Semibold</string>
+
+    <!-- 地图选点 -->
+    <string name="set_end_point">选择该点</string>
+
+    <!-- marker缩放 -->
+    <string name="pause_animation">暂停动画</string>
+    <string name="resume_animation">恢复动画</string>
+    <string name="remove_animation">移除动画</string>
+    <string name="add_animation">添加动画</string>
+
+    <!-- 建议检索 -->
+    <string name="in">在</string>
+    <string name="search">市内找</string>
+    <string name="defaultCity">北京</string>
+    <string name="search_poi">检索</string>
+
+    <!-- 个性化地图 -->
+    <string name="black_map">夜</string>
+    <string name="white_map">昼</string>
+    <string name="close_custom">关闭个性化</string>
+    <!-- Strings used for fragments for navigation -->
+    <string name="first_fragment_label">First Fragment</string>
+    <string name="second_fragment_label">Second Fragment</string>
+    <string name="next">Next</string>
+    <string name="previous">Previous</string>
+
+    <string name="hello_first_fragment">Hello first fragment</string>
+    <string name="hello_second_fragment">Hello second fragment. Arg: %1$s</string>
+
+    <!-- 手势 -->
+    <string name="standard_map">标准地图</string>
+    <string name="statellite_map">卫星地图</string>
+    <string name="nont_map">空白地图</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string-array name="provinces">
+        <item>云南省</item>
+        <item>山西省</item>
+        <item>福建省</item>
+        <item>广西壮族自治区</item>
+        <item>广东省</item>
+        <item>贵州省</item>
+    </string-array>
+
+    <string-array name="yunnan">
+
+
+        <item>昆明市</item>
+        <item>曲靖市</item>
+        <item>玉溪市</item>
+        <item>昭通市</item>
+        <item>保山市</item>
+        <item>丽江市</item>
+
+    </string-array>
+
+    <string-array name="guangxi">
+
+        <item>南宁市</item>
+        <item>桂林市</item>
+        <item>柳州市</item>
+        <item>北海市</item>
+        <item>钦州市</item>
+        <item>玉林市</item>
+        <item>百色市</item>
+        <item>河池市</item>
+        <item>防城港市</item>
+    </string-array>
+    <string-array name="shanxi">
+
+        <item>大同市</item>
+        <item>临汾市</item>
+        <item>太原市</item>
+        <item>阳泉市</item>
+        <item>长治市</item>
+        <item>晋城市</item>
+        <item>朔州市</item>
+        <item>晋中市</item>
+        <item>运城市</item>
+    </string-array>
+    <string-array name="fj">
+        <item>福州市</item>
+        <item>厦门市</item>
+        <item>泉州市</item>
+        <item>漳州市</item>
+        <item>福清市</item>
+        <item>莆田市</item>
+        <item>宁德市</item>
+    </string-array>
+    <string-array name="guangdong">
+        <item>广州市</item>
+        <item>深圳市</item>
+        <item>中山市</item>
+        <item>佛山市</item>
+        <item>惠州市</item>
+        <item>珠海市</item>
+        <item>汕头市</item>
+    </string-array>
+    <string-array name="guizhou">
+        <item>贵阳市</item>
+        <item>遵义市</item>
+        <item>安顺市</item>
+        <item>毕节市</item>
+        <item>铜仁市</item>
+        <item>六盘水市</item>
+    </string-array>
+    <string name="title_activity_main2">MainActivity2</string>
+    <string name="title_home">Home</string>
+    <string name="title_dashboard">Dashboard</string>
+    <string name="title_notifications">Notifications</string>
+</resources>

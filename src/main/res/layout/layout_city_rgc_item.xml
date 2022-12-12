@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_height="wrap_content"
+    android:layout_width="fill_parent"
+    android:paddingLeft="@dimen/dp10"
+    android:paddingRight="@dimen/dp10"
+    android:orientation="horizontal"
+    android:background="@color/color_white">
+
+    <ImageView
+        android:id="@+id/imgLocate"
+        android:layout_gravity="center_vertical"
+        android:layout_width="@dimen/dp10"
+        android:layout_height="@dimen/dp10"
+        ></ImageView>
+
+    <LinearLayout
+        android:layout_marginLeft="@dimen/dp10"
+        android:layout_marginTop="@dimen/dp20"
+        android:orientation="vertical"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content">
+        <LinearLayout
+            android:orientation="horizontal"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+            <TextView
+                android:id="@+id/namePrefix"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="@dimen/dp17"
+                android:textColor="@color/color_blue"
+                android:fontFamily="@string/PingFangSC_Regular"
+                />
+            <TextView
+                android:id="@+id/poiResultName"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textColor="@color/color_gray"
+                android:textSize="@dimen/dp17"
+                android:fontFamily="@string/PingFangSC_Regular"
+                />
+        </LinearLayout>
+        <TextView
+            android:id="@+id/poiAddress"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/dp6"
+            android:textSize="@dimen/dp13"
+            android:textColor="@color/color_light_gray"
+            android:fontFamily="@string/PingFangSC_Regular"/>
+
+        <include
+            android:layout_width="fill_parent"
+            android:layout_height="@dimen/dp1"
+            android:layout_marginTop="@dimen/dp20"
+            layout="@layout/layout_divider"></include>
+
+    </LinearLayout>
+
+</LinearLayout>

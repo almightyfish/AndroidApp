@@ -1,0 +1,13 @@
+<resources>
+    <!-- Default screen margins, per the Android Design guidelines. -->
+    <dimen name="activity_horizontal_margin">16dp</dimen>
+    <dimen name="activity_vertical_margin">16dp</dimen>
+    <dimen name="custom_profile_image">50dp</dimen>
+    <dimen name="custom_profile_padding">2dp</dimen>
+    <dimen name="margin">8dp</dimen>
+    <dimen name="poi_title_size">14sp</dimen>
+    <dimen name="ui_size">12sp</dimen>
+    <dimen name="actionbar_size">35sp</dimen>
+    <dimen name="fab_margin">16dp</dimen>
+    <dimen name="dip_12">35dp</dimen>
+</resources>

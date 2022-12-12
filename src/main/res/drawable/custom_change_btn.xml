@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<selector xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:drawable="@drawable/custom_btn_press" android:state_enabled="true"
+        android:state_pressed="false"/>
+    <item android:drawable="@drawable/custom_btn_nopress" android:state_enabled="true"
+        android:state_pressed="true"/>
+</selector>

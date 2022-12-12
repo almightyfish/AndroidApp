@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<shape xmlns:android="http://schemas.android.com/apk/res/android"
+    android:shape="rectangle">
+    <!-- Corner的属性是设置圆角的半径的-->
+    <corners
+        android:bottomLeftRadius="18dp"
+        android:bottomRightRadius="18dp"
+        android:radius="18dp"
+        android:topLeftRadius="18dp"
+        android:topRightRadius="18dp" />
+    <solid android:color="@color/custom_btn_1" />
+</shape>

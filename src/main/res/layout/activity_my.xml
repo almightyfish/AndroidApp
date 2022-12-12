@@ -1,0 +1,148 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:background="@drawable/background"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    tools:context=".my"
+    android:orientation="vertical"
+    >
+
+
+    <TextView
+
+        android:id="@+id/textView"
+        android:layout_width="411dp"
+        android:layout_height="30dp"
+        android:background="#035acb"
+        android:gravity="center"
+        android:text="我的"
+        android:textColor="#ffffff"
+        android:textSize="15dp" />
+
+    <LinearLayout
+        android:layout_gravity="center"
+        android:gravity="center"
+        android:layout_width="match_parent"
+        android:layout_height="200dp">
+
+        <TextView
+            android:id="@+id/username"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="这里是头像"
+            android:textSize="@dimen/dip_12" />
+
+    </LinearLayout>
+
+    <TextView
+        android:id="@+id/favor"
+        android:layout_marginTop="10dp"
+        android:layout_gravity="center"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="20dp"
+        android:text="我的收藏>"
+        android:clickable="true"
+        />
+
+    <TextView
+        android:layout_marginTop="10dp"
+        android:layout_gravity="center"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="20dp"
+        android:text="个人信息设置>"
+        android:clickable="true"
+        />
+
+    <TextView
+        android:layout_marginTop="10dp"
+        android:layout_gravity="center"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="20dp"
+        android:text="关于我们>"
+        android:clickable="true"
+        />
+
+
+    <LinearLayout
+
+        android:id="@+id/content"
+
+        android:layout_width="fill_parent"
+
+        android:layout_height="0dp"
+
+        android:layout_weight="1"
+
+        android:orientation="vertical"
+        tools:ignore="Suspicious0dp">
+
+
+
+    </LinearLayout>
+
+    <LinearLayout
+
+        android:layout_width="fill_parent"
+
+        android:layout_height="wrap_content"
+
+        android:gravity="bottom"
+
+        android:orientation="vertical">
+        <RadioGroup
+            android:gravity="bottom"
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:id="@+id/ra_group"
+            android:layout_height="70dp">
+
+            <RadioButton
+                android:layout_weight="1"
+                android:layout_height="wrap_content"
+                android:layout_width="0dp"
+                android:button="@null"
+                android:id="@+id/ra_1"
+
+                android:gravity="center"
+                android:text="首页"
+                android:drawablePadding="3dp"
+
+                android:layout_gravity="center"
+                />
+
+            <RadioButton
+                android:layout_width="0dp"
+                android:button="@null"
+                android:layout_weight="1"
+                android:gravity="center"
+                android:layout_height="wrap_content"
+                android:id="@+id/ra_2"
+                android:text="交互"
+                android:drawablePadding="3dp"
+
+                android:layout_gravity="center"
+
+                />
+
+            <RadioButton
+                android:layout_width="0dp"
+                android:button="@null"
+                android:layout_weight="1"
+                android:gravity="center"
+                android:text="我的"
+                android:drawablePadding="3dp"
+                android:layout_height="wrap_content"
+                android:id="@+id/ra_3"
+
+                android:layout_gravity="center"
+                />
+
+        </RadioGroup>
+    </LinearLayout>
+
+</LinearLayout>

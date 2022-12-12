@@ -1,0 +1,65 @@
+<resources>
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.AppCompat.Light.DarkActionBar">
+        <item name="actionBarSize">@dimen/actionbar_size</item>
+        <item name="colorPrimary">@color/action_bar_bg</item>
+    </style>
+
+    <style name="Bubble.TextAppearance.Dark" parent="android:TextAppearance.Medium">
+        <item name="android:textSize">14sp</item>
+        <item name="android:textColor">#000</item>
+    </style>
+
+    <style name="Bubble.TextAppearance.Light" parent="Bubble.TextAppearance.Dark">
+        <item name="android:textColor">#ffeeeeee</item>
+    </style>
+
+    <style name="ClusterIcon.TextAppearance" parent="android:TextAppearance">
+        <item name="android:textColor">#ffeeeeee</item>
+        <item name="android:textSize">16sp</item>
+        <item name="android:textStyle">bold</item>
+    </style>
+
+    <!-- FragmentActivity 特定主题，FragmentActivty和Theme.AppCompat不兼容，需要特殊配置 -->
+    <style name="FragmentAppTheme" parent="android:Theme">
+        <item name="android:windowTitleBackgroundStyle">@style/customTitleBarBackgroundStyle</item>
+        <item name="android:windowTitleSize">@dimen/dp40</item>
+        <item name="android:windowTitleStyle">@style/customTitleBarStyle</item>
+    </style>
+
+    <style name="gray_button_style">
+        <item name="android:textColor">@color/white</item>
+        <item name="android:layout_width">@dimen/dp214</item>
+        <item name="android:layout_height">@dimen/dp46</item>
+        <item name="android:textSize">@dimen/dp20</item>
+        <item name="android:fontFamily">PingFang-SC-Medium</item>
+    </style>
+
+    <style name="customTitleBarBackgroundStyle">
+        <item name="android:background">@color/colorPrimary</item>
+    </style>
+
+    <style name="customTitleBarStyle">
+        <item name="android:textSize">@dimen/dp19</item>
+        <item name="android:textColor">@color/white</item>
+        <item name="android:layout_marginLeft">@dimen/dp20</item>
+        <item name="android:fontFamily">@string/PingFang_SC_Medium</item>
+    </style>
+
+    <style name="btnSet">
+        <item name="android:textColor">@color/colorBlue</item>
+        <item name="color">@android:color/transparent</item>
+        <item name="android:width">@dimen/dp83</item>
+        <item name="android:height">@dimen/dp30</item>
+        <item name="android:textSize">@dimen/dp13</item>
+    </style>
+
+    <style name="AppTheme.NoActionBar">
+        <item name="windowActionBar">false</item>
+        <item name="windowNoTitle">true</item>
+    </style>
+
+    <style name="AppTheme.AppBarOverlay" parent="ThemeOverlay.AppCompat.Dark.ActionBar" />
+
+    <style name="AppTheme.PopupOverlay" parent="ThemeOverlay.AppCompat.Light" />
+</resources>

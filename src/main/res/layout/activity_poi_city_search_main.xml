@@ -1,0 +1,110 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <RelativeLayout
+        android:id="@+id/contentView"
+        android:layout_height="match_parent"
+        android:layout_width="match_parent">
+
+        <com.baidu.mapapi.map.MapView
+            android:id="@+id/mapview"
+            android:layout_height="match_parent"
+            android:layout_width="match_parent">
+        </com.baidu.mapapi.map.MapView>
+
+        <androidx.recyclerview.widget.RecyclerView
+            android:id="@+id/poiList"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:layout_marginTop="@dimen/dp80"
+            android:background="@drawable/bg_poi_list"
+            android:visibility="invisible">
+
+        </androidx.recyclerview.widget.RecyclerView>
+
+        <include
+            android:id="@+id/poiInfo"
+            layout="@layout/layout_poi_info"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true"
+            android:layout_marginLeft="@dimen/dp10"
+            android:layout_marginRight="@dimen/dp10"
+            android:layout_marginBottom="@dimen/dp18"
+            android:visibility="gone"></include>
+    </RelativeLayout>
+
+    <LinearLayout
+            android:id="@+id/titleBar"
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/dp80"
+            android:paddingLeft="@dimen/dp20"
+            android:paddingRight="@dimen/dp20"
+            android:background="@color/color_flow_window">
+        <LinearLayout
+                android:layout_width="fill_parent"
+                android:layout_weight="6"
+                android:layout_height="@dimen/dp40"
+                android:layout_marginTop="@dimen/dp20"
+                android:background="@drawable/bg_search_bar">
+            <TextView
+                    android:layout_marginLeft="@dimen/dp13"
+                    android:layout_gravity="center_vertical"
+                    android:layout_width="wrap_content"
+                    android:layout_height="@dimen/dp20"
+                    android:textSize="@dimen/dp14"
+                    android:textColor="@color/color_light_gray"
+                    android:fontFamily="@string/PingFang_SC_Medium"
+                    android:text="@string/in"/>
+
+            <EditText
+                    android:id="@+id/city"
+                    android:layout_marginLeft="@dimen/dp10"
+                    android:layout_gravity="center_vertical"
+                    android:layout_width="@dimen/dp60"
+                    android:layout_height="wrap_content"
+                    android:textColor="@color/color_white"
+                    android:text="@string/defaultCity"
+                    android:singleLine="true"
+                    android:background="@null"
+                    />
+            <TextView
+                    android:layout_marginLeft="@dimen/dp10"
+                    android:layout_gravity="center_vertical"
+                    android:layout_width="wrap_content"
+                    android:layout_height="@dimen/dp20"
+                    android:textSize="@dimen/dp14"
+                    android:textColor="@color/color_light_gray"
+                    android:fontFamily="@string/PingFang_SC_Medium"
+                    android:text="@string/search"/>
+
+            <EditText
+                    android:id="@+id/poi"
+                    android:layout_marginLeft="@dimen/dp10"
+                    android:layout_width="fill_parent"
+                    android:layout_gravity="center_vertical"
+                    android:layout_height="wrap_content"
+                    android:textColor="@color/color_white"
+                    android:singleLine="true"
+                    android:background="@null"
+                    />
+
+        </LinearLayout>
+        <Button
+                android:id="@+id/btn_search"
+                android:layout_marginLeft="@dimen/dp10"
+                android:background="@drawable/bg_search_bar"
+                android:layout_weight="4"
+                android:textColor="@color/color_white"
+                android:layout_gravity="center_vertical"
+                android:text="@string/search_poi"
+                android:layout_width="@dimen/dp80"
+                android:layout_height="@dimen/dp40"></Button>
+    </LinearLayout>
+</RelativeLayout>
